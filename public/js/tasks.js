@@ -22,14 +22,14 @@ var tasks = {
                                     '<label for="description" class="text-custom-blue font-weight-bolder">Description</label>' +
                                     '<textarea required="required" name="description" class="form-control" id="description"></textarea>' + 
                                 '</div>' +
-								'<div class="form-group mb-3">' +
-                                    '<label for="status" class="text-custom-blue font-weight-bolder">Status</label>' +
-                                    '<select class="form-control" id="status" name="status">' + 
-										'<option value="To Do">To Do</option>' + 
-										'<option value="In Progress">In Progress</option>' + 
-										'<option value="Completed">Completed</option>' + 
-									'</select>' + 
-                                '</div>' +
+								// '<div class="form-group mb-3">' +
+                                //     '<label for="status" class="text-custom-blue font-weight-bolder">Status</label>' +
+                                //     '<select class="form-control" id="status" name="status">' + 
+								// 		'<option value="To Do">To Do</option>' + 
+								// 		'<option value="In Progress">In Progress</option>' + 
+								// 		'<option value="Completed">Completed</option>' + 
+								// 	'</select>' + 
+                                // '</div>' +
                                 '<div class="mx-0 row mb-1">' +
                                     '<div class="col-6"><button class="btn btn-block btn-primary submit-button" type="submit">Submit</button></div>' +
                                     '<div class="col-6"><button class="btn btn-block btn-outline-info cancel-button" type="button">Cancel</button></div>' +
